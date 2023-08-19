@@ -8,12 +8,12 @@ import { CategoryNavbarComponent } from './layouts/category-navbar/category-navb
 import { FooterComponent } from './layouts/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
-import { SinglePostComponent } from './poges/single-post/single-post.component';
 import { TermsAndConditionComponent } from './pages/terms-and-condition/terms-and-condition.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
 import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 import { CommentsListComponent } from './comments/comments-list/comments-list.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +23,13 @@ import { CommentsListComponent } from './comments/comments-list/comments-list.co
     FooterComponent,
     HomeComponent,
     SingleCategoryComponent,
-    SinglePostComponent,
+    
     TermsAndConditionComponent,
     ContactUsComponent,
     SubscriptionFormComponent,
     CommentFormComponent,
-    CommentsListComponent
+    CommentsListComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
