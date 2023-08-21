@@ -14,6 +14,7 @@ import { SubscriptionFormComponent } from './subscription-form/subscription-form
 import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 import { CommentsListComponent } from './comments/comments-list/comments-list.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { PostcardComponent } from './layouts/postcard/postcard.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +24,14 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
     FooterComponent,
     HomeComponent,
     SingleCategoryComponent,
-    
+
     TermsAndConditionComponent,
     ContactUsComponent,
     SubscriptionFormComponent,
     CommentFormComponent,
     CommentsListComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    PostcardComponent
   ],
   imports: [
     BrowserModule,
